@@ -1,0 +1,111 @@
+/*Google font family*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --white-color: white;
+  --font-family: "Roboto", sans-serif;
+  --bg-Dark-Blue: #203647;
+  --font-weight: 600;
+}
+body {
+  background-color: var(--bg-Dark-Blue) !important;
+  color: var(--white-color) !important;
+  font-family: var(--font-family) !important;
+  font-weight: var(--font-weight) !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a3a3a3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.terminal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.terminal {
+  background: black;
+  padding: 30px;
+  width: 90%;
+  height: 550px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),    0 16px 16px rgba(0, 0, 0, 0.12);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: auto;
+  border-radius:10px;
+}
+.welcome-text h4 {
+  font-family: var(--font-family) !important;
+  font-weight: var(--font-weight);
+  letter-spacing: 2px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffa500;
+  text-transform: capitalize;
+}
+#command h5{
+  font-family: var(--font-family) !important;
+  font-weight: var(--font-weight);
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #0bff08;
+}
+.title {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.command-input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  background: black;
+  border: none;
+  color: #ffa500;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.command-input:focus {
+  outline: none;
+}
+.wrongMsg p{
+  color: red;
+  font-size: 20px;
+  font-family: var(--font-family) !important;
+  font-weight: var(--font-weight);
+  letter-spacing: 1px;
+}
+.help p{
+    font-size: 18px;
+    color: #0bff08;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.about p, .skills p, .contact p{
+    font-size: 18px;
+    color:#ffa500;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.image img {
+  width: 260px;
+}
