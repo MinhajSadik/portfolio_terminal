@@ -1,3 +1,3 @@
-# terminal-portfolio
+# Portfolio-Terminal
 
-website link [show website](https://gitgub.com/MinhajSadik/portfolio-terminal)
+TerMinal LiveLink [SHow TerMinal](https://minhajsadik.github.io/Portfolio-Terminal/)

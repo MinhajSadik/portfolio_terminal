@@ -1,7 +1,9 @@
 document.title = "This is my terminal portfolio";
+
 let pattern = /\s/g; // whitespace check
 let icon = "\u{1F449}"; // icon
 let insetData = document.getElementById("insetData");
+
 insetData.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
     if (pattern.test(e.target.value) || e.target.value === "") {
