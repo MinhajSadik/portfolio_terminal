@@ -38,21 +38,20 @@ insetData.addEventListener("keydown", function (e) {
       createElement(e.target, p, "skills");
       createInput();
     } else if (e.target.value.toLowerCase() === "contact") {
-      let p = `${icon} Gmail: MinhajoSadik@gmail.com
-        ${icon} Gmail:CleverLearnerz@gmail.com
+      let p = `${icon} Gmail: minhajosadik@gmail.com
+        ${icon} Gmail: littleprogrammer.zone@gmail.com 
         ${icon} Phone: (+880) 1781583107
         ${icon} Location: Beanibazar, Sylhet
 
         Social link:
-        ${icon} FB: https://facebook.com/MinhajSadik13
-        ${icon} FB-Group:https://facebook.com/cleverlearnerz
-        ${icon} Youtube:Clever Learner'z
-        ${icon} institute: Clever Learner'z
+        ${icon} FB: https://facebook.com/MinhajoSadik
+        ${icon} Youtube: https://youtube.com/@MinhajSadik
+        ${icon} institute: Little Programmers
       `;
       createElement(e.target, p, "contact");
       createInput();
     } else if (e.target.value.toLowerCase() === "image") {
-      `MA Sadik`
+      `Minhaj Sadik`
       createImg(e.target, 'image')
       createInput();
     }
@@ -104,7 +103,7 @@ function createInput() {
   let label = document.createElement("label");
   label.className = "title";
   let span = document.createElement("span");
-  span.innerText = `root@MinhajSadik ~ `;
+  span.innerText = `root@MinhajSadik~ `;
   label.appendChild(span);
   let input = document.createElement("input");
   input.type = "text";
