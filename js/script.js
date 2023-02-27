@@ -21,23 +21,20 @@ insetData.addEventListener("keydown", function (e) {
       createInput();
     } else if (e.target.value.toLowerCase() === "about") {
       let p = `Assalamualaikum... Developers!
-      I am Minhaj Sadik. I am a FullStack Developer Student`;
+      My name is Minhaj Sadik, I am Software Engineer from Bangladesh`;
       createElement(e.target, p, "about");
       createInput();
     } else if (e.target.value.toLowerCase() === "skills") {
       let p = `My Skills: 
-      ${icon} HTML+ HTML5 
-      ${icon} CSS + CSS3 
-      ${icon} JavaScript + Vanilla Js
-      ${icon} Bootstrap 4 and 5
-      ${icon} git & github
-      ${icon} Sass = panding...
-      ${icon} MySql panding...
-      ${icon} React.js & Node.js panding...
-      ${icon} TypeScript panding...
-      ${icon} PhP panding...
-      ${icon} Python panding...
-      ${icon} Future Skills C Was Also Pending....`;
+      ${icon} JavaScript && TypeScript
+      ${icon} Go Lang && Fiver
+      ${icon} ReactJs || NextJs && ReduxJs
+      ${icon} NodeJs && ExpressJs
+      ${icon} MongoDB && Mongoose || MySql && Sequelize || Redis
+      ${icon} Git && GitHub && GitLab && BitBucket
+      ${icon} VsCode && Postman && Terminal
+      ${icon} Discord && Slack
+      ${icon} Notion && ClickUp`;
       createElement(e.target, p, "skills");
       createInput();
     } else if (e.target.value.toLowerCase() === "contact") {
@@ -54,7 +51,7 @@ insetData.addEventListener("keydown", function (e) {
       `;
       createElement(e.target, p, "contact");
       createInput();
-    }else if (e.target.value.toLowerCase() === "image") {
+    } else if (e.target.value.toLowerCase() === "image") {
       `MA Sadik`
       createImg(e.target, 'image')
       createInput();

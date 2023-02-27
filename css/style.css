@@ -1,5 +1,6 @@
 /*Google font family*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -46,11 +47,13 @@ body {
   padding: 30px;
   width: 90%;
   height: 550px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),    0 16px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
   overflow-x: hidden;
   overflow-y: auto;
   scroll-behavior: auto;
-  border-radius:10px;
+  border-radius: 10px;
 }
 .welcome-text h4 {
   font-family: var(--font-family) !important;
@@ -62,7 +65,7 @@ body {
   color: #ffa500;
   text-transform: capitalize;
 }
-#command h5{
+#command h5 {
   font-family: var(--font-family) !important;
   font-weight: var(--font-weight);
   letter-spacing: 2px;
@@ -87,24 +90,26 @@ body {
 .command-input:focus {
   outline: none;
 }
-.wrongMsg p{
+.wrongMsg p {
   color: red;
   font-size: 20px;
   font-family: var(--font-family) !important;
   font-weight: var(--font-weight);
   letter-spacing: 1px;
 }
-.help p{
-    font-size: 18px;
-    color: #0bff08;
-    font-weight: 700;
-    letter-spacing: 1px;
+.help p {
+  font-size: 18px;
+  color: #0bff08;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-.about p, .skills p, .contact p{
-    font-size: 18px;
-    color:#ffa500;
-    font-weight: 700;
-    letter-spacing: 1px;
+.about p,
+.skills p,
+.contact p {
+  font-size: 18px;
+  color: #ffa500;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .image img {
   width: 260px;
